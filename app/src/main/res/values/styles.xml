@@ -1,0 +1,64 @@
+<resources>
+    
+    <style name="TextHead1" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+
+    <style name="TextHead2" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_h2</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextHead3" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_h3</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextSubHead" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_l</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextChat" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_l</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextNormal" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_n</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextSmall" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_s</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextTiny" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_xs</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="boxStrokeColor">@color/textSecondary</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/space_l</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/space_l</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/space_l</item>
+        <item name="boxCornerRadiusTopStart">@dimen/space_l</item>
+        <item name="startIconTint">@color/textSecondary</item>
+        <item name="android:textColorHint">@color/textSecondary</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+</resources>
