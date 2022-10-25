@@ -7,3 +7,4 @@ It contains following features
 4. Retrofit
 5. Room database
 6. Recyclerview with Diffutils
+7. Many helper functions 
